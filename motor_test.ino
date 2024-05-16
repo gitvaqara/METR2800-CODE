@@ -48,7 +48,26 @@ void setup() {
   go();
   delay(1000);
   stop();
-
+  /*back_setup();
+  go();
+  delay(1000);
+  stop();
+  strafe_left_setup();
+  go();
+  delay(1000);
+  stop();
+  strafe_right_setup();
+  go();
+  delay(1000);
+  stop();
+  rotate_clockwise_setup():
+  go();
+  delay(1000);
+  stop();
+  rotate_anticlockwise_setup();
+  go();
+  delay(1000);
+  stop();*/
 }
 
 void loop() {
