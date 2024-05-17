@@ -1,0 +1,13 @@
+void move_servo(int pos){
+  if (pos <= 240 && pos >= 25){
+    MAIN.write(pos);
+    delay(2000);
+    if (pos <= 120) {
+      MAIN.write(pos + 1);
+    } else {
+      MAIN.write(pos - 1);
+    }
+    delay(500);
+  }
+
+}
